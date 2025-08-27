@@ -3,7 +3,7 @@ on:
     workflow_dispatch:
 jobs:
     build-push:
-        runs-on: ununtu-latest
+        runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v5
             - name: Autenticação no GHCR
